@@ -40,9 +40,7 @@ function displayWeather(report) {
         img.src = 'cloudy.png';
     } else if (conditions.includes('rain')) {
         img.src = 'rain.png';
-    } else if (conditions.includes('rain')) {
-        img.src = 'rain.png';
-    } else if (conditions.includes('snow')) {
+    } else if (conditions.includes('snow') || conditions.includes('sleet')) {
         img.src = 'snow.png';
     }
 
