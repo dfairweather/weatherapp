@@ -109,7 +109,7 @@ body {
     #search {
         position: static;
         margin: auto;
-        width: 250px;
+        max-width: 292px;
         margin-top: 78px;
     }
 
