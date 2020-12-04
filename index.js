@@ -63,7 +63,7 @@ async function getUserZip() {
 async function searchCity(query) {
     try {
         
-        const response = await fetch(`http://api.weatherapi.com/v1/current.json?key=${api_key}&q=${query}`, {mode: 'cors'});
+        const response = await fetch(`https://api.weatherapi.com/v1/current.json?key=${api_key}&q=${query}`, {mode: 'cors'});
         const report = await response.json();
         return report
     } catch {
