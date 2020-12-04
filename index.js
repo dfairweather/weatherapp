@@ -14,6 +14,7 @@ const abstract_key = '328c8ed13d6f4d19b5a81b3d4e65b7fb';
 form.addEventListener('submit', (e) => {
     const query = search.value;
     search.value = '';
+    search.blur();
     e.preventDefault();
     const report = searchCity(query);
     report.then(displayWeather);
